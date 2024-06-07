@@ -1,13 +1,12 @@
-# Launching a Nest (JavaScript) Application with Docker
+# Launching a [Nest JS](http://nestjs.com/) (JavaScript) Application with Docker
 
-This guide explains how to set up and launch a Nest (JavaScript) application using Docker.
+This guide explains how to set up and launch a [Nest JS](http://nestjs.com/) (JavaScript) application using Docker.
 
 ## Prerequisites
 
 Before starting, ensure you have the following tools installed on your machine:
 
 - [Docker](https://www.docker.com/products/docker-desktop)
-- [Nest](http://nestjs.com/)
 
 ## Dockerfile Content
 
