@@ -13,9 +13,12 @@ RUN npm install
 # Copy the rest of the application files
 COPY . .
 
+# Build app
+RUN npm run build
+
 # Expose the port specified via an argument (default: 3000)
 ARG PORT=3000
 EXPOSE ${PORT}
 
 # Command to start the application
-CMD ["npm", "run", "start"]
+CMD ["npm", "run", "start:prod"]
